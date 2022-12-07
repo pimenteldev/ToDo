@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "JosefinSans";
+  src: url("../../public/fonts/JosefinSans-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "JosefinSans400";
+  src: url("../../public/fonts/JosefinSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+/*
+
+### Light Theme
+
+- Very Light Gray: hsl(0, 0%, 98%)
+- Very Light Grayish Blue: hsl(236, 33%, 92%)
+- Light Grayish Blue: hsl(233, 11%, 84%)
+- Dark Grayish Blue: hsl(236, 9%, 61%)
+- Very Dark Grayish Blue: hsl(235, 19%, 35%)
+
+### Dark Theme
+
+- Very Dark Blue: hsl(235, 21%, 11%)
+- Very Dark Desaturated Blue: hsl(235, 24%, 19%)
+- Light Grayish Blue: hsl(234, 39%, 85%)
+- Light Grayish Blue (hover): hsl(236, 33%, 92%)
+- Dark Grayish Blue: hsl(234, 11%, 52%)
+- Very Dark Grayish Blue: hsl(233, 14%, 35%)
+- Very Dark Grayish Blue: hsl(237, 14%, 26%)
+
+*/
+
+:root{
+  --text:hsl(240deg 4% 44%);
+  --text-disabled:hsl(240deg 2% 81%);
+  --text-active:hsl(240deg 6% 60%); 
+  --text-aux: hsl(0deg 0% 66%);
+  --bg-primary:hsl(0, 0%, 98%);
+  --bg-secundary:hsl(0, 0%, 100%);
+  --blue: hsl(220, 98%, 61%);
+  
+  --bg-primary-dark:hsl(240deg 21% 11%);
+  --bg-secundary-dark:hsl(235deg 24% 19%);
+  --text-dark: hsl(235deg 29% 83%);
+}
+
+html,body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'JosefinSans400', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

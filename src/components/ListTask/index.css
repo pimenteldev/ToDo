@@ -1,0 +1,76 @@
+
+.select_order{
+    width: 85%;
+    margin:0 auto;
+    border-radius: 5px;
+    font-size: 14px;
+    position:relative;
+    margin-top: 17px;
+    box-shadow: 0 5px 10px 0.1rem rgba(0, 0, 0, 0.068);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.select_order_dark{
+    background: var(--bg-secundary-dark);
+    color: var(--text-dark);
+}
+
+.select_order_dark strong:hover{
+    color: var(--bg-primary);
+}
+
+.select_order_light{
+    background: var(--bg-secundary);
+    color: var(--text-active)
+}
+
+.select_order strong {
+    padding: 1rem;
+    height: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.span_active {
+    color: var(--blue);
+}
+
+.txt_footer{
+    width: 85%;
+    margin:0 auto;
+    border-radius: 5px;
+    font-size: 12px;
+    position:relative;
+    margin-top: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-active);
+    padding-bottom: 4rem;
+}
+
+.emptyTasks{
+    color: var(--text);
+    padding: 1rem;
+    height: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.list_task_footer span {
+    cursor: pointer;
+}
+
+.list_task_footer_dark span:hover{
+    color: var(--bg-primary);
+}
+
+.list_task_footer_light span:hover{
+    color: var(--text);
+}
