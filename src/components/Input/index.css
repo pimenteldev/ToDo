@@ -1,0 +1,52 @@
+.div_input{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: -90px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.inputPrimary{
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    padding: .8rem;
+    padding-left: 45px;
+    padding-top: 18px;
+}
+
+.circlePrimary{
+    border: 1px solid hsl(236, 33%, 92%);
+    border-radius: 50%;
+    padding: 5px 5px;
+    position: absolute;
+    height:7px;
+    width:7px;
+    left:15px;
+    top:50%;
+    transform: translateY(-50%);
+    z-index:10;
+    
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    font-family: 'JosefinSans400';
+    font-size: 14px;
+}
+
+input::placeholder{
+    color: #9a999e;
+}
+
+.input-dark{
+    background: var(--bg-secundary-dark);
+    color: var(--text-dark);
+}
+
+.input-light{
+    background: var(--bg-secundary);
+    color: var(--text);
+}
